@@ -30,7 +30,6 @@ public class PlayerManager : MonoBehaviour
             Player1.SetActive(false);
             Player2.SetActive(false);
 
-            Debug.Log(GameManager._instance.PlayerChoose);
             if (GameManager._instance.PlayerChoose < 2)
             {
                 Player1.SetActive(true);
